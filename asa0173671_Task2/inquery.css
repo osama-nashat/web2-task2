@@ -1,0 +1,52 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(to bottom right,#d63031,#0984e3);
+}
+
+.container p{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px;
+}
+
+.container input[type="text"]{
+    width: 250px;
+    display: block;
+    margin: 5px auto;
+    padding: 10px 5px;
+    border: none;
+}
+
+.container input[type="text"]::placeholder{
+    color: #555;
+    font-size: 16px;
+}
+
+#informations1,#informations2{
+    border: 3px solid #fff;
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    color: #fff;
+
+}
+
+#informations1 td,#informations2 td{
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#informations2 th{
+    border: 1px solid #fff;
+    padding: 10px;
+    font-size: 25px;
+}

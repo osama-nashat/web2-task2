@@ -1,0 +1,81 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(to bottom right,#81ecec,#ff7979);
+}
+
+
+.container{
+    position: absolute;
+    background-color: #2f3542;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    height: 350px;
+    
+}
+
+.container .db-login{
+    width: 300px;
+    text-align: center;
+}
+
+.container .db-login h1{
+
+    text-align: center;
+    color: #ffffff;
+}
+
+.container .db-login input[type="text"]{
+    display: block;
+    width: 90%;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom:1px solid #ffffff;
+    padding: 10px;
+    padding-left:0 ;
+    margin: 40px 5px;
+}
+
+.container .db-login input[type="text"]::placeholder{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.container .db-login input[type="password"]{
+    display: block;
+    width: 90%;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom:1px solid #ffffff;
+    padding: 10px;
+    padding-left:0 ;
+    margin: 40px 5px;
+}
+
+.container .db-login input[type="password"]::placeholder{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.container .db-login input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    background: linear-gradient(to bottom right,#d63031,#0984e3);
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    margin-top: 18px;
+    cursor: pointer;
+}

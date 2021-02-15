@@ -1,0 +1,101 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:linear-gradient(to bottom right,#81ecec,#ff7979);
+}
+
+.container{
+    position: absolute;
+    background-color: #2f3542;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    height: 550px;
+    
+}
+
+.container .pInsert{
+    width: 300px;
+    text-align: center;
+}
+
+.container .pInsert h1{
+
+    text-align: center;
+    color: #ffffff;
+}
+
+.container .pInsert input[type="text"]{
+    display: block;
+    width: 90%;
+    outline: none;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom:1px solid #ffffff;
+    padding: 10px;
+    padding-left:0 ;
+    margin: 25px 5px;
+}
+
+.container .pInsert input[type="text"]::placeholder{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.container .pInsert input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    background: linear-gradient(to bottom right,#d63031,#0984e3);
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.wrong-id,.wrong-firstname,.wrong-lastname,.wrong-age,.wrong-address,.wrong-mobile{
+
+    color: #fff;
+    position: absolute;
+    left: 63%;
+    font-size: 18px;
+}
+
+.wrong-id{
+
+    top: 24%;
+}
+
+.wrong-firstname{
+
+    top: 33%;
+}
+
+.wrong-lastname{
+
+    top: 42%; 
+}
+
+.wrong-age{
+
+    top: 50%;  
+}
+
+.wrong-address{
+
+    top: 59%;  
+}
+
+.wrong-mobile{
+
+    top: 68%;  
+}
